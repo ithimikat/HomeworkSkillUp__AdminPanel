@@ -1,0 +1,23 @@
+div.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+textarea,
+button{
+    width: 100%;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+
+
+
