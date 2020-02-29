@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <h1>Добавление нового товара</h1>
-    <form action="../src/addProduct.php" method="post" enctype="multipart/form-data">
+    <form action="../src/addProductToDatabase.php" method="post" enctype="multipart/form-data">
         <label>
             <span>Название товара</span>
             <input type="text" name="title" required>

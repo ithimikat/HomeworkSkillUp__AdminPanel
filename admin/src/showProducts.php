@@ -35,7 +35,7 @@ $products = $productsTable->getAllProducts();
             <button type="button" class="btnDeleteProduct" value="<?= $product['id'] ?>">Удалить</button>
         </div>
     <?php endforeach; ?>
-    <form action="../public/addProduct.html">
+    <form action="../public/addProduct.php">
         <button>Добавить новый товар</button>
     </form>
 </div>
